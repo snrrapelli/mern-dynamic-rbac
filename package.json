@@ -1,0 +1,23 @@
+{
+  "name": "mern-dynamic-rbac",
+  "version": "1.0.0",
+  "description": "Dynamic role-based access control POC using the MERN stack",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snrrapelli/mern-dynamic-rbac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snrrapelli/mern-dynamic-rbac/issues"
+  },
+  "homepage": "https://github.com/snrrapelli/mern-dynamic-rbac#readme",
+  "private": true
+}
