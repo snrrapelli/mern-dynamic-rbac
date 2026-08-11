@@ -7,6 +7,8 @@ import cookieParser from 'cookie-parser';
 import healthRoutes from './routes/health.routes.js';
 import authRoutes from './routes/auth.routes.js';
 import permissionRoutes from './routes/permission.routes.js';
+import roleRoutes from './routes/role.routes.js';
+import userRoutes from './routes/user.routes.js';
 
 const app = express();
 
@@ -20,6 +22,9 @@ app.use(cookieParser());
 app.use('/api/health', healthRoutes);
 app.use('/api/auth', authRoutes);
 app.use('/api/permissions', permissionRoutes);
+app.use('/api/roles', roleRoutes);
+app.use('/api/users', userRoutes);
+
 
 app.use((req, res) => {
     res.status(404).json({
