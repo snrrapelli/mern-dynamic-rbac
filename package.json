@@ -19,5 +19,8 @@
     "url": "https://github.com/snrrapelli/mern-dynamic-rbac/issues"
   },
   "homepage": "https://github.com/snrrapelli/mern-dynamic-rbac#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  }
 }
