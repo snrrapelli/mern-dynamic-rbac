@@ -288,7 +288,7 @@ export const getRoleOptions = async (req, res, next,) => {
         const roles = await Role.find({
             isActive: true,
         })
-            .select('_id name')
+            .select('_id name isActive')
             .sort({ name: 1 })
             .lean();
 
